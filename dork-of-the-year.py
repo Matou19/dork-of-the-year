@@ -20,7 +20,6 @@ class Player():
 			print(str(self.rank) + '. ' + self.name + ' - GP ' + str(self.gamesPlayed) + ' - Raw Average: ' + str(float(self.points)/self.gamesPlayed))
 		else:
 			# Player who played no games in time span
-			# Should not hit, just for testing
 			print(str(self.rank) + '. ' + self.name + ' - GP 0 - Raw Average: 0')
 
 baseUrl = 'http://dork-prod.herokuapp.com/players/ranked?month={0}&year={1}'
